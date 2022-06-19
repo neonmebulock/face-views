@@ -1,0 +1,41 @@
+<%- include("templates/cabecera") %>
+
+<!-- 
+----------------------------------LODAER-------------------------------------------
+
+<div class="wrapper">	
+    <div class="rubik-loader"><h2>Cargando Informacion</h2></div>
+</div>
+ -->
+
+
+<!-- ------------MENU------------- -->
+
+<%- include("templates/navbar") %>
+
+
+
+<%- include("templates/info") %>
+
+<!-- ------------Imagenes------------- -->
+
+<%- include("templates/hostler") %>
+
+
+
+<!-- ------------CONTENEDOR DE COOKIES------------- -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB7HJ8K"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div class="aviso-cookies" id="aviso-cookies">
+		<img src="../../../public/img/logoheader-removebg-preview.png" class="cookieImg">
+		<img class="galleta" src="../../../public/img/cookie.svg" alt="Galleta">
+		<h3 class="titulo">Cookies</h3>
+		<p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+		<button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+		<a class="enlace" href="aviso-cookies.html">Aviso de Cookies</a>
+	</div>
+	<div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+<%- include("templates/footerIndex") %>

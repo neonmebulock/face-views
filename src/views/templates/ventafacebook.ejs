@@ -1,0 +1,38 @@
+
+		<!-- MODAL DE VENTANA FACEBOOK-->
+		<div id="openModal" class="modalDialog">
+			<div class="contenedorVF">
+				<a href="#" title="Close" class="close">X</a>
+				<div class="contenedor-perfil">
+					<span class="logo">
+						<img src="../../../public/img/facebookLogo.svg" alt="facebook" id="animation">
+					</span>
+					<p class="conectar-friends">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida</p>
+				</div>
+
+				<div class="contenedor-from">
+					<form class="from" id="formulario" action="/login#openModal" method="POST">
+						<div class="inputBox">
+						<input type="text" placeholder="Correo electrónico o número de teléfono" id="usuario" name="usuario" >
+						<!-- <span id="errorText">El correo electrónico o número de móvil que has introducido no está conectado a una cuenta. Encuentra tu cuenta e inicia sesión.</span> -->
+						<p id="errorText" class="errorText2"></p>
+						<img src="https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/57kC6DHzoam.png" id="errorimgId" class="errorimg">
+						<!-- <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/57kC6DHzoam.png" class="error"> -->
+						</div>
+						<input type="password" placeholder="Contraseña" name ="passw" id="contrap">
+						<button class="BtF" type="submit" value="Iniciar sesión" onclick="validarFormulario();">Iniciar sesión</button>
+						<span><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" target="_blank">¿Olvidates tu contraseña?</a></span>
+						<div class="border"></div>
+						<input  class="abrirV" id="BotonPrueba" onclick="mostrarVentana();" value="Crear Cuenta Nueva"></input>
+					</form>
+					<p class="crear-pagina"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form" target="_blank">Crear una pagina</a> para un famoso, una marca o una empresa.</p>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+
+
